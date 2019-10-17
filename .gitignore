@@ -1,3 +1,4 @@
 tags
 server/paho.mqtt.testing
 server/.env
+esptool/

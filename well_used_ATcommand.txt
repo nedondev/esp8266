@@ -1,0 +1,13 @@
+#The default baud rate is 115200.
+#AT commands have to be capitalized, and must end with a new line (CR LF).
+AT - tests AT Startup
+AT+CWMODE? - check mode
+AT+CWMODE=<num> - change mode(1,2,3)
+AT+CWLAP - list available APs
+AT+CWJAP= “SSID”,“Password” -connect wifi
+AT+CIFSR - gets the local ip address
+AT+CWQAP - Disconnect from the AP
+AT+CWAUTOCONN=<enable> - (0,1)
+AT+UART_DEF=57600,8,1,0,0
+	   =<baudrate>,<databits>,<stopbits>,<parity>,<flow control>
+
